@@ -519,7 +519,7 @@ top: -1px;
   background-image: url("images/search_bar_bg.png");
   background-color: #6c9fa5;
   height: 28px; 
-  width: 466px;
+  width: 375px;
 }
 
 #wrapper #container #primary-nav div.searchbar #islandora-solr-simple-search-form div 
@@ -530,7 +530,7 @@ top: -1px;
   width: 300px;
   padding-top: 2px; 
   margin: 0;
-  left: 200px;
+  left: 125px;
   top: 0px;
 }
 
@@ -538,11 +538,13 @@ top: -1px;
 
 #wrapper #container #primary-nav div.searchbar #islandora-solr-simple-search-form div .form-submit
 {
-  float: right;
+/*  float: right;
   margin-top: -5px;
   margin-right: 35px;
-
-  
+*/
+	position: absolute;
+  top: -27px; 
+	right: 35px;
 }
 
 #wrapper #container #primary-nav div.searchbar .label
@@ -555,7 +557,7 @@ top: -1px;
   line-height: 15px;
   text-align: left;
   
-  padding-left: 20px;
+  padding-left: 5px;
   padding-top: 6px;
 }
 
@@ -805,7 +807,7 @@ ul.primary-links li a.active {
 	background-color: #fff;
 }
 
-.block h2 {
+.block h2, .block h2 a {
     color: #fff;
     overflow: hidden;
     margin: 0px 10px 5px 0;
@@ -815,7 +817,7 @@ ul.primary-links li a.active {
     -moz-border-radius-bottomright: 10px;
     -webkit-border-bottom-right-radius: 10px;
     border-bottom-right-radius: 10px;
-    font-size: 12px;
+    font-size: 10px;
     font-weight: 700;
     height: 22px;
     padding-left: 5px;
