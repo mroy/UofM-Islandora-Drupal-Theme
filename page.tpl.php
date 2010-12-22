@@ -75,7 +75,7 @@ global $theme_path;
       <div class="shadow3">
 	<div id="primary-nav">
 	  <div class="searchbar">
-	    <div class='label'>Catalogue Keyword Search:</div>	    
+	    <div class='label'>Keyword Search:</div>	    
 	    <?php print drupal_get_form('islandora_solr_simple_search_form');?>
 	  </div><!-- end searchbar -->
 	  <?php if (isset($primary_links)) : ?><!-- begin primary_links -->
